@@ -1,7 +1,71 @@
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2em;
+	font-weight: bolder;
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	color: #4aaaa5;
+	font-weight: bolder;
+}
+body {
+	background-image: url("../images/concrete-texture.png");
+}
 header {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
+	width: 100%;
+	background-color: white;
+	border-bottom: 0.1em solid #cccccc;
+	margin-bottom: 2em;
+}
+#headerBox {
+	width: 960px;
+	margin: auto;
+}
+#name {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 2em;
+	float: left;
+}
+#menu {
+	float: right;
+}
+#contentArea {
+	width: 960px;
+	margin: auto;
+}
+#main {
+	width: 650px;
+	float: left;
+	background-color: white;
+	border: 0.05em solid #dddddd;
+}
+#aboutMe {
+	color: #4aaaa5;
+	border-bottom: 0.1em solid #dddddd;
+	margin: 0.5em;
+	padding: 0.5em 0;
+}
+#sidebar {
+	width: 270px;
+	float: right;
+	background-color: white;
+	border: 0.05em solid #dddddd;
+}
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: smaller;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	color: #cccccc;
+	padding: 2em;
+	border-top: 0.5em solid #4aaaa5;
+	margin-top: 2em
+}
+.clearfix {
+	content: "";
+    clear: both;
+    display: table;
 }
