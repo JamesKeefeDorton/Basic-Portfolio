@@ -95,9 +95,15 @@ footer {
 	border-top: 0.5em solid #4aaaa5;
 	margin-top: 2em
 }
+.imageLabelPair {
+	float: left;
+}
 .label {
 	color: white;
 	background-color: #4aaaa5;
+	width: 300px;
+	position: absolute;
+	top: -100px;
 }
 .clearfix {
 	content: "";
