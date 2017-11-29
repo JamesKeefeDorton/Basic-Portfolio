@@ -95,6 +95,10 @@ footer {
 	border-top: 0.5em solid #4aaaa5;
 	margin-top: 2em
 }
+.label {
+	color: white;
+	background-color: #4aaaa5;
+}
 .clearfix {
 	content: "";
     clear: both;
